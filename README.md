@@ -1,7 +1,5 @@
 # PDI - Segunda lista de exercicios
 
-![legenda](pasta/spectro_magnitude.png)
-
 ### **9. A Tranformada Discreta de Fourier**
 
 - Utilizando os programa [exemplos/dftimage.cpp](https://agostinhobritojr.github.io/tutorial/pdi/exemplos/dftimage.cpp), calcule e apresente o espectro de magnitude da imagem [Figura 7](https://agostinhobritojr.github.io/tutorial/pdi/#fig_senoide256png).
@@ -378,7 +376,7 @@ Primeiramente fiz a aplicação do filtro de canny para detecção de bordas, ut
 
 Utilizando a técnica do pontilhismo para desenhar floki a partir da aplicação do filtro do resultado de canny, obtive esse resultado.
 
-![Imagem do floki com pontilhismo](images/floki_points.png)
+![Imagem do floki com pontilhismo](images/floki_points.jpg)
 
 ### 11. **Quantização vetorial com k-means**
 
@@ -437,4 +435,4 @@ int main(int argc, char** argv) {
 
 A razão pela qual as imagens podem diferir tanto em diferentes execuções do algoritmo k-means é que o processo de inicialização dos centros de cluster é aleatório quando você usa **`KMEANS_RANDOM_CENTERS`**. Isso significa que, em cada execução, os centros iniciais dos clusters podem ser diferentes, levando a diferentes agrupamentos finais.
 
-![sushi](images/sushi-kmeans.png)
+![sushi](images/sushi-kmeans.jpg)
