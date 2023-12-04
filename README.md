@@ -378,7 +378,7 @@ Utilizando a técnica do pontilhismo para desenhar floki a partir da aplicação
 
 ![Imagem do floki com pontilhismo](images/floki_points.jpg)
 
-### 11. **Quantização vetorial com k-means**
+### 12. **Quantização vetorial com k-means**
 
 Utilizando o programa [kmeans.cpp](https://agostinhobritojr.github.io/tutorial/pdi/exemplos/kmeans.cpp) como exemplo prepare um programa exemplo onde a execução do código se dê usando o parâmetro `nRodadas=1` e inciar os centros de forma aleatória usando o parâmetro `KMEANS_RANDOM_CENTERS` ao invés de `KMEANS_PP_CENTERS`. Realize 10 rodadas diferentes do algoritmo e compare as imagens produzidas. Explique porque elas podem diferir tanto.
 
